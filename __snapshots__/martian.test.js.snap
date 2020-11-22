@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseParamsFromInput invalid or malformed instructions 1`] = `
+Object {
+  "mapSize": Object {
+    "x": 5,
+    "y": 3,
+  },
+  "robots": Array [
+    Object {
+      "instructions": Array [
+        "F",
+        "L",
+        "R",
+      ],
+      "o": "E",
+      "x": 1,
+      "y": 1,
+    },
+  ],
+}
+`;
+
+exports[`parseParamsFromInput invalid or malformed orientations 1`] = `
+Object {
+  "mapSize": Object {
+    "x": 1,
+    "y": 1,
+  },
+  "robots": Array [
+    Object {
+      "instructions": Array [
+        "F",
+      ],
+      "o": "N",
+      "x": 1,
+      "y": 1,
+    },
+  ],
+}
+`;
+
+exports[`parseParamsFromInput invalid or malformed orientations 2`] = `
+Object {
+  "mapSize": Object {
+    "x": 1,
+    "y": 1,
+  },
+  "robots": Array [
+    Object {
+      "instructions": Array [
+        "F",
+      ],
+      "o": "E",
+      "x": 1,
+      "y": 1,
+    },
+  ],
+}
+`;
+
+exports[`parseParamsFromInput invalid or malformed orientations 3`] = `
+Object {
+  "mapSize": Object {
+    "x": 1,
+    "y": 1,
+  },
+  "robots": Array [
+    Object {
+      "instructions": Array [
+        "F",
+      ],
+      "o": "W",
+      "x": 1,
+      "y": 1,
+    },
+  ],
+}
+`;
+
+exports[`parseParamsFromInput invalid or malformed orientations 4`] = `
+Object {
+  "mapSize": Object {
+    "x": 1,
+    "y": 1,
+  },
+  "robots": Array [
+    Object {
+      "instructions": Array [
+        "F",
+      ],
+      "o": "S",
+      "x": 1,
+      "y": 1,
+    },
+  ],
+}
+`;
+
+exports[`parseParamsFromInput invalid or malformed orientations 5`] = `
+Object {
+  "mapSize": Object {
+    "x": 1,
+    "y": 1,
+  },
+  "robots": Array [
+    Object {
+      "instructions": Array [
+        "F",
+      ],
+      "o": "N",
+      "x": 1,
+      "y": 1,
+    },
+  ],
+}
+`;
+
+exports[`parseParamsFromInput invalid or malformed orientations 6`] = `
+Object {
+  "mapSize": Object {
+    "x": 1,
+    "y": 1,
+  },
+  "robots": Array [
+    Object {
+      "instructions": Array [
+        "F",
+      ],
+      "o": "E",
+      "x": 1,
+      "y": 1,
+    },
+  ],
+}
+`;
+
+exports[`parseParamsFromInput invalid or malformed orientations 7`] = `
+Object {
+  "mapSize": Object {
+    "x": 1,
+    "y": 1,
+  },
+  "robots": Array [
+    Object {
+      "instructions": Array [
+        "F",
+      ],
+      "o": "W",
+      "x": 1,
+      "y": 1,
+    },
+  ],
+}
+`;
+
+exports[`parseParamsFromInput invalid or malformed orientations 8`] = `
+Object {
+  "mapSize": Object {
+    "x": 1,
+    "y": 1,
+  },
+  "robots": Array [
+    Object {
+      "instructions": Array [
+        "F",
+      ],
+      "o": "S",
+      "x": 1,
+      "y": 1,
+    },
+  ],
+}
+`;
+
+exports[`parseParamsFromInput max coordinate is 50 1`] = `
+Object {
+  "mapSize": Object {
+    "x": 50,
+    "y": 50,
+  },
+  "robots": Array [
+    Object {
+      "instructions": Array [
+        "F",
+      ],
+      "o": "E",
+      "x": 50,
+      "y": 50,
+    },
+  ],
+}
+`;
+
+exports[`parseParamsFromInput ok 1`] = `
+Object {
+  "mapSize": Object {
+    "x": 5,
+    "y": 3,
+  },
+  "robots": Array [
+    Object {
+      "instructions": Array [
+        "R",
+        "F",
+        "R",
+        "F",
+        "R",
+        "F",
+        "R",
+        "F",
+      ],
+      "o": "E",
+      "x": 1,
+      "y": 1,
+    },
+    Object {
+      "instructions": Array [
+        "F",
+        "R",
+        "R",
+        "F",
+        "L",
+        "L",
+        "F",
+        "F",
+        "R",
+        "R",
+        "F",
+        "L",
+        "L",
+      ],
+      "o": "N",
+      "x": 3,
+      "y": 2,
+    },
+    Object {
+      "instructions": Array [
+        "L",
+        "L",
+        "F",
+        "F",
+        "F",
+        "L",
+        "F",
+        "L",
+        "F",
+        "L",
+      ],
+      "o": "W",
+      "x": 0,
+      "y": 3,
+    },
+  ],
+}
+`;
